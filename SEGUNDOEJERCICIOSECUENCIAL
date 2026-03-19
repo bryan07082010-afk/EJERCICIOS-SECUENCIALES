@@ -1,0 +1,15 @@
+//Calcular el perimetro y area de un rectangulo dada su base y altura
+
+escribir "calcule el perimetro y area de un rectangulo"
+escribir "."
+escribir "ingrese base del triangulo:2"
+leer base
+escribir "ingrese altura del triangulo:4"
+leer altura
+
+perimetro = 2 * (base + altura)
+area = base * altura
+
+escribir "perimetro: ",perimetro
+escribir "area: ",area
+finproceso
