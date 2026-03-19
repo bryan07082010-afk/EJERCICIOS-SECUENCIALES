@@ -1,0 +1,9 @@
+//Dado los catetos de un triangulo rectangulo, calcular su hipotenusa
+
+escribir "ingrese el cateto num1: 5"
+leer a
+escribir "ingrese el cateto num2: 5"
+leer b 
+h = raiz(a^2 + b^2)
+escribir "hipotenusa: ",H
+FINPROCESO
