@@ -1,0 +1,16 @@
+Algoritmo operciones 
+	definir num1, num2, suma, resta, multiplicacion, division como real 
+	
+	leer num1, num2
+	suma = num1 + num2 
+	resta = num1 - num2 
+	multiplicacion = num1 * num2 
+	division = num1 / num2 
+	
+	escribir "suma: ", suma
+	escribir "resta: ", resta
+	escribir "multiplicacion: ", multiplicacion
+	escribir "division: ", division 
+	
+FinAlgoritmo
+	
