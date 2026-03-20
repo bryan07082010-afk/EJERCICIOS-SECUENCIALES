@@ -1,0 +1,11 @@
+Algoritmo mediatresnumeros 
+	definir n1, n2, n3, media como real 
+	
+	escribir "ingrese tres numeros: "
+	leer n1, n2, n3
+	media = (n1 + n2 + n3) / 3
+	
+	escribir "la  media es: ", media 
+	
+FinAlgoritmo
+	
