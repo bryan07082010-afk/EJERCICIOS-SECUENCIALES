@@ -1,0 +1,13 @@
+Algoritmo sueldo 
+	definir sueldo_base, venta1, venta2, venta3, total_ventas, comision,total como real 
+	
+	leer sueldo_base
+	leer venta1, venta2, venta3
+	
+	total_ventas = venta1 + venta2 + venta3 
+	comision = total_ventas * 0.10
+	total = sueldo_base + comision 
+	
+	escribir "total a recibir: ", total
+	
+FinAlgoritmo
