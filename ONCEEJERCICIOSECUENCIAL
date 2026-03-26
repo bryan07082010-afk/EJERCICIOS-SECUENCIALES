@@ -1,0 +1,15 @@
+Algoritmo distancia_numeros
+	definir a, b, distancia como real 
+	escribir "primer numero:"
+	leer a
+	escribir "segundo numero:"
+	leer b
+	
+	si a = b entonces 
+		distancia = a - b
+	sino 
+		distancia = b - a 
+		
+	FinSi
+	escribir "distancia: ",distancia
+FinAlgoritmo
