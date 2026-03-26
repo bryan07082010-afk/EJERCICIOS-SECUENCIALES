@@ -1,0 +1,7 @@
+Algoritmo descuento 
+	definir compra, total como real 
+	leer compra
+	total = compra - (compra * 0.15)
+	escribir "total a pagar: ",total 
+	
+FinAlgoritmo
