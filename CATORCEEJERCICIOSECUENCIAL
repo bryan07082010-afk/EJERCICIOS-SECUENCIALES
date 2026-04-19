@@ -1,0 +1,14 @@
+Algoritmo Ejercicio14
+    Definir num, decena, unidad, invertido Como Entero
+    
+    Escribir "Ingrese un número de dos cifras:"
+    Leer num
+    
+    decena = Trunc(num / 10)
+    unidad = num Mod 10
+    
+    invertido <- unidad * 10 + decena
+    
+    Escribir "Número invertido: ", invertido
+	
+FinAlgoritmo
