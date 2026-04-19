@@ -1,0 +1,22 @@
+Algoritmo HoraLlegadaCiclista
+    Definir hh, mm, ss, T Como Entero
+    Definir totalSeg, hhf, mmf, ssf Como Entero
+    
+    Escribir "Ingrese horas de salida:"
+    Leer hh
+    Escribir "Ingrese minutos de salida:"
+    Leer mm
+    Escribir "Ingrese segundos de salida:"
+    Leer ss
+    
+    Escribir "Ingrese tiempo de viaje en segundos:"
+    Leer T
+    
+    totalSeg = hh*3600 + mm*60 + ss + T
+    
+    hhf = Trunc(totalSeg / 3600) Mod 24
+    mmf = Trunc((totalSeg Mod 3600) / 60)
+    ssf = totalSeg Mod 60
+    
+    Escribir "Hora de llegada: ", hhf, ":", mmf, ":", ssf
+FinAlgoritmo
