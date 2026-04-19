@@ -1,0 +1,13 @@
+Algoritmo Ejercicio13
+    Definir num, raizCuadrada, raizCubica Como Real
+    
+    Escribir "Ingrese un número:"
+    Leer num
+    
+    raizCuadrada = Raiz(num)
+    raizCubica = num^(1/3)
+    
+    Escribir "Raíz cuadrada: ", raizCuadrada
+    Escribir "Raíz cúbica: ", raizCubica
+	
+FinAlgoritmo
