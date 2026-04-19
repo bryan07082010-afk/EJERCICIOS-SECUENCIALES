@@ -1,0 +1,15 @@
+Algoritmo IntercambiarValores
+    Definir A, B, aux Como Real
+    
+    Escribir "Ingrese el valor de A:"
+    Leer A
+    Escribir "Ingrese el valor de B:"
+    Leer B
+    
+    aux = A
+    A = B
+    B = aux
+    
+    Escribir "Nuevo valor de A: ", A
+    Escribir "Nuevo valor de B: ", B
+FinAlgoritmo
