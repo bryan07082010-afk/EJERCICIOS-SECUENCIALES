@@ -1,0 +1,17 @@
+Algoritmo InicialesPersona
+    Definir nombre, apellido1, apellido2 Como Cadena
+    Definir ini1, ini2, ini3 Como Cadena
+    
+    Escribir "Ingrese su nombre:"
+    Leer nombre
+    Escribir "Ingrese primer apellido:"
+    Leer apellido1
+    Escribir "Ingrese segundo apellido:"
+    Leer apellido2
+    
+    ini1 = Mayusculas(Subcadena(nombre,1,1))
+    ini2 = Mayusculas(Subcadena(apellido1,1,1))
+    ini3 = Mayusculas(Subcadena(apellido2,1,1))
+    
+    Escribir "Iniciales: ", ini1, ini2, ini3
+FinAlgoritmo
