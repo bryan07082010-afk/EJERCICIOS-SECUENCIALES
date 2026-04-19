@@ -1,0 +1,14 @@
+Algoritmo CalculoNotaFinal
+    Definir correctas, incorrectas, blanco, nota Como Entero
+    
+    Escribir "Ingrese respuestas correctas:"
+    Leer correctas
+    Escribir "Ingrese respuestas incorrectas:"
+    Leer incorrectas
+    Escribir "Ingrese respuestas en blanco:"
+    Leer blanco
+    
+    nota = correctas*5 + incorrectas*(-1) + blanco*0
+    
+    Escribir "Nota final: ", nota
+FinAlgoritmo
