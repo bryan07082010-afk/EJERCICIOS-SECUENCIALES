@@ -1,0 +1,14 @@
+Algoritmo TiempoAlcanceVehiculos
+    Definir v1, v2, d, tiempo Como Real
+    
+    Escribir "Ingrese velocidad del vehículo 1 (km/h):"
+    Leer v1
+    Escribir "Ingrese velocidad del vehículo 2 (km/h):"
+    Leer v2
+    Escribir "Ingrese distancia entre ellos (km):"
+    Leer d
+    
+    tiempo = (d / Abs(v1 - v2)) * 60
+    
+    Escribir "Tiempo en minutos para alcanzarlo: ", tiempo
+FinAlgoritmo
