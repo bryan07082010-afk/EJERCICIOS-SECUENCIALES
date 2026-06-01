@@ -1,0 +1,26 @@
+Algoritmo NUMERIMO
+	//programa que identifica si un numero es primo o no 
+	bandera = 0 
+	Escribir "digite un numero:"
+	leer nume
+	
+	n = nume - 1 
+	mientras n<> 2 hacer
+		
+		n = n - 1
+		r = nume / n
+		
+		si r = entero Entonces
+			
+			bandera = 1 
+		FinSi
+	FinMientras
+	
+	si r = trunc(r) Entonces
+		bandera=1
+		escribir "numero no primo"
+	sino
+		escribir"numero  primo"
+	FinSi
+	
+FinAlgoritmo
